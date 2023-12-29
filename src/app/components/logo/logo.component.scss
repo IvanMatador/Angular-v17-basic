@@ -1,0 +1,34 @@
+:host {
+  .logo-container {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+      flex: 1;
+    }
+
+    .logo {
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: none;
+      background-color: blue;
+    }
+
+    .description {
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: none;
+      background-color: yellow;
+    }
+  }
+}
