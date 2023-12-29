@@ -27,7 +27,7 @@ import { routes } from './app.routes';
     LeftBlockComponent,
     RightBlockComponent,
     CommonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
   ],
   providers: [],
   bootstrap: [AppComponent]

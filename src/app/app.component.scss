@@ -17,10 +17,8 @@
 .header {
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 150px;
-  top: 0;
-  left: 0;
   box-shadow: 0 3px 20px blue;
   overflow: hidden;
 
@@ -42,19 +40,16 @@
   height: 100%;
 
   .left-container {
-    padding: 15px;
     width: 250px;
     height: 100%;
   }
 
   .main-container {
-    padding: 15px;
     width: 100%;
     height: 100%;
   }
 
   .right-container {
-    padding: 15px;
     width: 250px;
     height: 100%;
   }
@@ -62,6 +57,7 @@
 
 .footer {
   height: 150px;
+  box-shadow: 0 3px 20px blue;
 }
 
 
