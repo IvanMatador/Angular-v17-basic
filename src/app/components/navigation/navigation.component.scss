@@ -1,11 +1,31 @@
+.nav-block {
+  width: 100%;
+  height: 150px;
+  min-height: 150px;
+  max-height: 150px;
+  background: center no-repeat url('../../../assets/paper.png');
+  background-size: cover;
+}
+
+.block-description {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    padding-top: 30px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.481);
+    box-shadow: 0 0 5px white;
+  }
+}
+
 .nav-container {
   display: inline-flex;
   align-items: flex-end;
   justify-content: center;
   width: 100%;
-  height: 100%;
-  background: center no-repeat url('../../../assets/paper.png');
-  background-size: cover;
+  height: 70%;
 
   .nav-item {
     font-size: 12px;

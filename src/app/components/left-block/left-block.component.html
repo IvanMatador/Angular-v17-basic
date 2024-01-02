@@ -1,3 +1,5 @@
 <div class="left-block-container">
-  <p>left-block works!</p>
+  @for (item of blockItems$ | async; track item) {
+    <app-left-menu-item [item]="item"/>
+  }
 </div>

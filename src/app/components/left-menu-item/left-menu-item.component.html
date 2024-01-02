@@ -1,0 +1,15 @@
+<mat-accordion class="headers-align" multi>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{ item.name }}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="actions">
+      @for (subitem of item.list; track subitem) {
+        <button class="item-button" color="primary" mat-raised-button>{{ subitem.spec }}</button>
+      }
+    </div>
+
+  </mat-expansion-panel>
+</mat-accordion>

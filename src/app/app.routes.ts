@@ -1,13 +1,13 @@
 import { Routes } from "@angular/router";
 import { HomeComponent } from "./components/home/home.component";
-import { CompaniesComponent } from "./components/companies/companies.component";
-import { UsesComponent } from "./components/uses/uses.component";
-import { WorksComponent } from "./components/works/works.component";
+import { ClientsComponent } from "./components/clients/clients.component";
+import { DoctorsComponent } from "./components/doctors/doctors.component";
+import { EquipmentComponent } from "./components/equipment/equipment.component";
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'companies', component: CompaniesComponent },
-  { path: 'works', component: WorksComponent },
-  { path: 'uses', component: UsesComponent },
+  { path: 'clients', component: ClientsComponent },
+  { path: 'doctors', component: DoctorsComponent },
+  { path: 'equipment', component: EquipmentComponent },
 ];

@@ -6,6 +6,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background: no-repeat center url('../../../assets/logo.jpg');
+    background-size: 90%;
 
     div {
       flex: 1;
@@ -18,7 +20,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-image: none;
-      background-color: blue;
+      background-color: transparent;
     }
 
     .description {
@@ -28,7 +30,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-image: none;
-      background-color: yellow;
+      background-color: transparent;
     }
   }
 }
